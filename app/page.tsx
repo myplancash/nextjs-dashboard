@@ -17,7 +17,7 @@ export default function Page() {
             className={styles.shape}
           />
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to QuikBizz.</strong> This is the example for the{' '}
+            <strong>Step into QuikBizz</strong>, where possibilities unfold seamlessly. Embark on a journey with our Next.js Learn Course. {' '}
             <a href="https://nextjs.org/learn/" className="text-emerald-500">
               Next.js Learn Course
             </a>
@@ -33,14 +33,14 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-            src="/hero-desktop.png"
+            src="/hero-desktop-1.png"
             width={1000}
             height={760}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image 
-            src='/hero-mobile.png'
+            src='/hero-mobile-1.png'
             width={560}
             height={620}
             className='block md:hidden '
